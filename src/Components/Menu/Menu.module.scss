@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+.menu {
+  background-color: #000000;
+  margin-bottom: 50px;
+}
+
+.container{
+    display: flex; 
+    align-items: center;
+}
+
+.brand{
+  color: #ffffff;
+  text-decoration: none !important;
+  padding: 0.5rem 1rem;
+  align-self: center;
+  font-size: 2em;
+  &.active {
+    color: #ffc107;
+  }
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none !important;
+  padding: 0.5rem 1rem;
+  font-size: 2em;
+  &.active {
+    color: #ffc107;
+  }
+  align-self: center;
+}
+
+
