@@ -10,7 +10,7 @@ const Home = () => {
     { id: 2, title: 'Русская классика', description: 'Описание категории "Русская классика".', image: 'rk.jpg' },
     { id: 3, title: 'Фантастика', description: 'Описание категории "Фантастика".', image: 'pot.jpg' },
     { id: 4, title: 'Романтика', description: 'Описание категории "Романтика".', image: 'na.jpg' },
-    { id: 5, title: 'Научные книги', description: 'Описание категории "Научные книги".', image: `/az.jpg` },
+    { id: 5, title: 'Научные книги', description: 'Описание категории "Научные книги".', image: `az.jpg` },
   ];
 
   return (
@@ -42,7 +42,7 @@ const Home = () => {
             <h3>{slide.title}</h3>
           </Link>
           <div>
-            <Image src={`/frontend/library/public/png/${slide.image}`} fluid className={styles.cardImage} />
+            <Image src={`/png/${slide.image}`} fluid className={styles.cardImage} />
             <p><strong>Великолепная</strong> <i>книга</i></p>
           </div>
         </div>

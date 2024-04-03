@@ -9,7 +9,7 @@ const Menu = () => {
       <Container className={styles.container}>
         <Navbar.Brand className={styles.brand} as={NavLink} to="/" exact>
           <img
-            src="/frontend/library/public/th-103304673.jpg" // Замените путь на путь к вашему изображению
+            src="/th-103304673.jpg" // Замените путь на путь к вашему изображению
             width="30"
             height="30"
             className={`d-inline-block align-top ${styles.brandImg}`} // Добавляем стиль для изображения
