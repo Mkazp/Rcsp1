@@ -8,9 +8,9 @@ const Intro = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 6000); // 6 секунд
+    }, 4000); // 4 секунды
 
-    return () => clearTimeout(timer); // Очистка таймера при размонтировании компонента
+    return () => clearTimeout(timer); 
   }, []);
 
   return (

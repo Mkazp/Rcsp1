@@ -8,7 +8,7 @@ const Contacts = () => {
       <Row className="justify-content-center">
         <Col xs={12} sm={6} md={4} lg={3}>
             <Card className={`mb-4 ${styles.card}`}>
-            © "Все права защищены"
+            Библиотека 2024&copy; "Все права защищены"
             </Card>
         </Col>
       </Row>

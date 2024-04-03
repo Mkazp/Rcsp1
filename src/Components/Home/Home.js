@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Image } from 'react-bootstrap';
 import styles from './Home.module.scss';
 import { Link } from 'react-router-dom';
+import image from '../../assets/png/az.jpg'; 
 
 const Home = () => {
   const slides = [
@@ -9,7 +10,7 @@ const Home = () => {
     { id: 2, title: 'Русская классика', description: 'Описание категории "Русская классика".', image: 'rk.jpg' },
     { id: 3, title: 'Фантастика', description: 'Описание категории "Фантастика".', image: 'pot.jpg' },
     { id: 4, title: 'Романтика', description: 'Описание категории "Романтика".', image: 'na.jpg' },
-    { id: 5, title: 'Научные книги', description: 'Описание категории "Научные книги".', image: 'az.jpg' },
+    { id: 5, title: 'Научные книги', description: 'Описание категории "Научные книги".', image: `/az.jpg` },
   ];
 
   return (
