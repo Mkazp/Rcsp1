@@ -6,7 +6,7 @@ import Intro from './Components/Intro/Intro';
 import Contacts from './Components/Contacts/Contacts';
 import Card from './Components/Card/Card';
 import './App.css';
-import lol from './Components/lol';
+
 
 function App() {
   return (
